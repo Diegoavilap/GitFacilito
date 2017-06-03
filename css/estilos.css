@@ -78,6 +78,12 @@ p{
     background-color: wheat;
     color: #141419;
     border-radius: 5px;
+    margin: 10px 0;
+    display: inline-block;
+    transition: 0.3s;
+}
+.btn:hover{
+    transform: scale(1.2);
 }
 /*Animacion*/
 @keyframes float {
