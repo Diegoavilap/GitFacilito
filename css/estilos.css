@@ -1,0 +1,76 @@
+a{
+    text-decoration: none;
+}
+body{
+    font-family: monospace;
+}
+figure{
+    margin: 0 !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+h1{
+    color: #D74932;
+    font-size: 50px !important;
+    text-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+}
+p{
+    font-weight: 300;
+}
+.content{
+    text-align: center;
+}
+.cover{
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(../images/cover.jpg);
+    display: flex;
+    height: 100hv;
+    justify-content: center;
+        
+}
+
+.icon .icon-social{
+    background: #fff;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.infoContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.infoContent .block h3{
+    font-size: 25px;
+    margin: 5px 0 10px 0;
+}
+.infoContent .block{
+    padding: 8px;
+    width: 100%;
+    
+}
+.infoContent .block .icon-social {
+    font-size: 70px;
+}
+
+/*Animacion*/
+@keyframes float {
+    50%{
+        transform: translate(0,20px);
+    }
+}
+/*Media Queries*/
+@media all and (min-width:769px){
+    h1{
+        font-size: 100px !important;
+    }
+    .infoContent .block{
+        width: 30%;
+    }
+}
