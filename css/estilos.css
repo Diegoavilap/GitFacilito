@@ -2,6 +2,7 @@ a{
     text-decoration: none;
 }
 body{
+    margin: 0 !important;
     font-family: monospace;
 }
 figure{
@@ -18,6 +19,7 @@ h1{
 p{
     font-weight: 300;
 }
+
 .content{
     text-align: center;
 }
@@ -26,18 +28,30 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     background: url(../images/cover.jpg);
-    display: flex;
-    height: 100hv;
+    position: 0;
+    height: 100vh;
     justify-content: center;
         
 }
 
-.icon .icon-social{
-    background: #fff;
-    color: #fff;
+.icon{
+    animation: float 1.5s ease-out infinite;
+    color: white;
+    font-size: 80px !important;
+}
+.flecha{
     width: 100%;
     text-align: center;
-    text-decoration: none;
+}
+.info{
+    background-color: #141419;
+    color: white;
+    padding: 20px;
+}
+.info h2{
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
 }
 
 .infoContent{
@@ -59,6 +73,12 @@ p{
     font-size: 70px;
 }
 
+.btn {
+    padding: 0.5rem;
+    background-color: wheat;
+    color: #141419;
+    border-radius: 5px;
+}
 /*Animacion*/
 @keyframes float {
     50%{
