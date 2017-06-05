@@ -65,6 +65,8 @@ h1{
     margin: 5px 0 10px 0;
     text-transform: uppercase;
     letter-spacing: 1px;
+    color: #4299D4;
+    text-shadow: 2px 2px 2px white;
     
 }
 .infoContent .block{
@@ -78,9 +80,9 @@ h1{
 
 .btn {
     padding: 0.5rem;
-    background-color: wheat;
+    background-color: white;
     color: #141419;
-    border: 2px solid #D4C31C;
+    border: 2px solid #4299D4;
     border-radius: 5px;
     margin: 10px 0;
     display: inline-block;
